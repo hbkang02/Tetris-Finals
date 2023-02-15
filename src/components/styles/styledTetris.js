@@ -1,12 +1,14 @@
-import styled from 'styled-components';
-import bgImage from '../../img/bg.png';
+import styled from "styled-components";
+import bgImage from "../../img/pokeball2.jpeg";
 
 export const StyledTetrisWrapper = styled.div`
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
   background: url(${bgImage}) #000;
   background-size: cover;
-  overflow: hidden;
+  background-repeat: no-repeat;
 `;
 
 export const StyledTetris = styled.div`
